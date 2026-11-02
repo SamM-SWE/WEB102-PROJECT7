@@ -1,0 +1,172 @@
+.main-div {
+  display: grid;
+  grid-template-columns: 17vw 1fr;
+}
+
+.navbar {
+  background-color: rgba(128, 128, 128, 0.693);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+
+  padding-top: 40px;
+}
+
+.button-container {
+  display: grid;
+  gap: 15px;
+  height: 20vh;
+  width: 10vw;
+}
+
+.menu-button {
+  background: transparent;
+  color: white;
+  border: solid;
+  border-radius: 4vh;
+  font-size: 20px;
+}
+
+
+.menu-button:hover {
+  background-color: rgba(85, 85, 85, 0.693);
+  cursor: pointer;
+}
+
+.menu-button:active {
+  color: black;
+  background-color: white;
+}
+
+#home-page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.home-topText {
+  display: grid;
+  height: 100px;
+  margin-top: 0px;
+}
+
+.heading-txt {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.desc-txt {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+}
+
+.home-photo {
+  width: 100%;
+  height: 100%;
+}
+
+.homePhoto-div {
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
+}
+
+#characterHd-txt {
+  margin-top: 50px;
+}
+
+.character-creation {
+  margin-top: 20px;
+}
+
+.character-creation form{
+  display: grid;
+  gap: 20px; 
+  justify-content: center;
+}
+
+.form-item {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  width: 25vw;
+  height: 12vh;
+  border-radius:20px;
+}
+
+input {
+  width: 200px;
+  height: 25px;
+}
+
+.formItem-txt {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.submit-button {
+  color: white;
+  background-color: transparent;
+  border: solid;
+  border-radius: 10px;
+  height: 50px;
+  font-size: 25px;
+}
+
+.submit-button:hover {
+  background-color: rgba(0, 0, 0, 0.56);
+  cursor: pointer;
+}
+
+.gallery {
+  margin: 40px auto 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.352);
+  width: 300px;
+  height: 500px;
+  gap: 10px;
+  border-radius: 30px;
+}
+
+.detail-txt {
+  color: white;
+  font-size: 30px;
+}
+
+.card-img {
+  width: 175px;
+  height: 200px;
+}
+
+.card-button {
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card-button:hover {
+  cursor: pointer;
+  color: red;
+}
